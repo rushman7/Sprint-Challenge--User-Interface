@@ -255,7 +255,7 @@ footer nav a {
     width: 100%;
 }
 
-.slide-btn {
+.slide-btn{
     border: 2px solid black;
     background: white;
     padding: 10px 20px;
@@ -267,4 +267,39 @@ footer nav a {
     background: black;
     color: white;
     cursor: pointer;
+}
+
+.form-container {
+    margin: 20px
+}
+
+.input {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.submit-btn {
+    border: 2px solid black;
+    background: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.submit-btn:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+} 
+
+.txt-area {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
